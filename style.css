@@ -1,10 +1,10 @@
- @import url('https://fonts.google.com/specimen/RobotoMono');
+ @import url('https://fonts.google.com/specimen/Roboto_Mono');
 
  *(
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'RobotoMono',sans-serif;
+    font-family: 'Roboto_Mono',sans-serif;
 
 )
 
@@ -36,9 +36,66 @@ h6{
     font-size: 20px;
     color: #222;
 }
-p{
-    
+
+p {
+    font: size 16px;
+    color: #465b52;
+    margin : 15px 0 20px;
+
 }
 
+.section-p1{
+    padding :40px 80px;
+}
+
+.section-m1{
+    margin:40px 0;
+}
+
+body{
+    width: 100%;
+     
+}
+
+.logo{
+    width: 150px;
+    height: 150 px;
+}
+
+
+/*header Start */
+
+#header{
+
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    padding : 20px 80px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+}
+#navbar{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;   
+}
+
+#navbar li a  {
+
+text-decoration: none;
+font-size: 16px;
+font-weight:600;
+color: #1a1a1a;
+}
+
+#navbar li a:hover{
+ color :#088178 ;
+}
 
 
