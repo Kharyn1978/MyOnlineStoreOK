@@ -52,6 +52,21 @@ p {
     margin:40px 0;
 }
 
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition:0.2s ;
+
+ 
+}
+
 body{
     width: 100%;
      
@@ -294,3 +309,51 @@ transition: 0.3s ease;
     right:10px;
 } 
 
+#banner{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/pexels-leah-kelley-325527.jpg");
+    width: 100%;
+    height:40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#banner h4{
+    color : rgb(89, 12, 161) ;
+    font-size: 16px;
+}
+
+#banner h2{
+    color : rgb(18, 16, 19) ;
+    font-size: 30px;
+    padding: 10px 0 ;
+}
+
+#banner h2 span{
+    color : rgb(247, 9, 9) ;
+
+}   
+    
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+#sm-banner .banner-box{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("images/perf10.jpg");
+    min-width: 500px;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ 
