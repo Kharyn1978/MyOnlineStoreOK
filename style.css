@@ -186,11 +186,11 @@ transition: 0.3s ease;
     display: inline-block;
 }
 
-/*#feature .fe-box image{
+#feature .fe-box image{
    margin-bottom: 0px;
     width = 150%;
     height= 100%;
-}*/
+}
 
 #feature .fe-box:nth-child(2) h6{
      background-color: #f4ebda;
@@ -225,6 +225,7 @@ transition: 0.3s ease;
     box-shadow: 20px 20px 30px rgba(0,0,0,0.02);
     margin:15px 0;
     transition:0.2s ease;
+    position:relative;
      
 }
 
@@ -280,3 +281,4 @@ transition: 0.3s ease;
     bottom: 20px;
     right:10px;
 } 
+
