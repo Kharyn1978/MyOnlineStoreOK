@@ -63,9 +63,21 @@ button.normal{
     border: none;
     outline: none;
     transition:0.2s ;
-
- 
 }
+
+button .white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent; 
+    border: 1px solid #fff;
+    cursor: pointer;
+    outline: none;
+    transition:0.2s;
+
+}
+
 
 body{
     width: 100%;
@@ -203,8 +215,8 @@ transition: 0.3s ease;
 
 #feature .fe-box image{
    margin-bottom: 0px;
-    width = 150%;
-    height= 100%;
+   width = 150%;
+   height= 100%;
 }
 
 #feature .fe-box:nth-child(2) h6{
@@ -343,17 +355,94 @@ transition: 0.3s ease;
     color: #fff;
 }
 
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 #sm-banner .banner-box{
     display:flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("images/perf10.jpg");
+    align-items: flex-start;
+     background-image: url("images/perf10.jpg");
     min-width: 500px;
     height:50vh;
     background-size: cover;
     background-position: center;
+    padding-left: 30px;
+}
+
+#sm-banner .banner-box2{
+     background-image: url("images/pexels-dmitry-zvolskiy-4108279.jpg");
+}
+
+#sm-banner h4{
+    color: #1419c3;
+    font-size: 20px;
+    font-weight:800;
+}
+
+#sm-banner h2{
+    color: #0cbc4c;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #121211;
+    font-size: 14px;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+  background-color: #088178;
+  border:1px solid #088178;
+}
+
+#banner3 {
+    display :flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding :0 80px ;
+
+
+}
+
+#banner3 .banner-box{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("images/perf3.webp");
+    min-width: 30%;
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+    padding-left: 20px;
+    margin-bottom:20px ;
+}
+
+#banner3 .banner-box2{
+    background-image: url("images/pexels-yulia-h-11028230.jpg");
+}
+
+#banner3 .banner-box3{
+    background-image: url("images/pexels-yaroslava-borz-10153601.jpg");
+}
+
+#banner3 h2{
+    color:#fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color:#770c0c;
+    font-weight: 800;
+    font-size: 15px;
 }
 
  
