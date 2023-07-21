@@ -505,7 +505,7 @@ footer{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width:90%;
     height :25px;
 }
 
@@ -518,8 +518,8 @@ footer .col{
 
 footer .logo{
     margin-bottom: 30px;
-    width: 150px;
-    height: 150 px;
+    width: 30px;
+    height:10 px;
 }
   
 
