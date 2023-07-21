@@ -1,4 +1,8 @@
- @import url('https://fonts.google.com/specimen/Roboto_Mono');
+body{
+    background-color: #dec2c2;
+}
+
+@import url('https://fonts.google.com/specimen/Roboto_Mono');
 
  *(
     margin: 0;
@@ -8,6 +12,7 @@
 
 )
 
+ 
 h1{
 
     font-size: 50px;
@@ -450,19 +455,48 @@ transition: 0.3s ease;
      justify-content: space-between;
      flex-wrap :wrap ;
      align-items: center;
-     background-image: url("");
+     background-image: url("images/aromatic-spa-oils-perfumes-20340426.webp");
      background-repeat: no-repeat;
      background-position: 100% 100%;
-     /*background-color: #088178;*/
+     background-color: #088178;
 }
 
 #newsletter h4{
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: #2b0aea;
 }
-#newsletter pattern{
+#newsletter p{
     font-size: 14px;
     font-weight: 600;
     color: #818ea0;
+}
+
+#newsletter p span{
+    color:#f01533;
+}
+
+#newsletter .form{
+    display:flex;
+    width: 40%;
+ }
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border:3px solid ;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap; 
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
