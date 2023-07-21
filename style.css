@@ -1,5 +1,6 @@
 body{
-    background-color: #dec2c2;
+    background-color: #b69e9e;
+    width: 100%;
 }
 
 @import url('https://fonts.google.com/specimen/Roboto_Mono');
@@ -83,20 +84,12 @@ button .white{
 
 }
 
-
-body{
-    width: 100%;
-     
-}
-
 .logo{
     width: 150px;
     height: 150 px;
 }
 
-
 /*header Start */
-
 #header{
 
     width: 100%;
@@ -126,16 +119,16 @@ body{
 
 #navbar li a {
 
-text-decoration: none;
-font-size: 16px;
-font-weight:600;
-color: #1a1a1a;
-transition: 0.3s ease;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
 }
 
 #navbar li a:hover ,
 #navbar li a.active  {
- color :#088178 ;
+    color :#088178 ;
 }
  
 #navbar li a.active::after ,
@@ -220,12 +213,12 @@ transition: 0.3s ease;
 
 #feature .fe-box image{
    margin-bottom: 0px;
-   width = 150%;
-   height= 100%;
+   width = 100%;
+   height= 70%;
 }
 
 #feature .fe-box:nth-child(2) h6{
-     background-color: #f4ebda;
+    background-color: #f4ebda;
 }
 
 #feature .fe-box:nth-child(3) h6{
@@ -275,10 +268,8 @@ transition: 0.3s ease;
     height: 40px;
     border-radius: 20px;
     transition:0.2s ease;
-  
-
-
 }
+
 #product1.pro :hover {
      box-shadow: 20px 2opx 30px rgba(0,0,0,0.06);
 }
@@ -371,7 +362,7 @@ transition: 0.3s ease;
     flex-direction:column;
     justify-content: center;
     align-items: flex-start;
-     background-image: url("images/perf10.jpg");
+    background-image: url("images/perf10.jpg");
     min-width: 500px;
     height:50vh;
     background-size: cover;
@@ -384,7 +375,7 @@ transition: 0.3s ease;
 }
 
 #sm-banner h4{
-    color: #1419c3;
+    color: #2c09dc;
     font-size: 20px;
     font-weight:800;
 }
@@ -396,8 +387,8 @@ transition: 0.3s ease;
 }
 
 #sm-banner span{
-    color: #121211;
-    font-size: 14px;
+    color: #e9e9e3;
+    font-size: 18px;
     font-weight: 900;
     padding-bottom: 15px;
 }
@@ -421,7 +412,7 @@ transition: 0.3s ease;
     flex-direction:column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("images/perf3.webp");
+    background-image: url("images/closeup-young-bride-getting-ready-perfumes-home-morning-wedding-day-76432587.webp");
     min-width: 30%;
     height:30vh;
     background-size: cover;
@@ -435,21 +426,22 @@ transition: 0.3s ease;
 }
 
 #banner3 .banner-box3{
-    background-image: url("images/pexels-yaroslava-borz-10153601.jpg");
+    background-image: url("images/3-bottles-6466593.webp");
 }
 
 #banner3 h2{
-    color:#fff;
+    color:#050505;
     font-weight: 900;
     font-size: 22px;
 }
 
 #banner3 h3{
-    color:#770c0c;
+    color:#3210c6;
     font-weight: 800;
     font-size: 15px;
 }
 
+ /*News letter banner start*/
 #newsletter{
      display :flex;
      justify-content: space-between;
@@ -500,7 +492,8 @@ transition: 0.3s ease;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
-
+ /*footer start */
+ 
 footer{
     display:flex;
     flex-wrap: wrap;
